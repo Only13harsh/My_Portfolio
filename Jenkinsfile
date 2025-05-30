@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clone the repo
-                git branch: 'main', url: 'https://github.com/Only13harsh/your-repo-name.git'
+                git branch: 'main', url: 'https://github.com/Only13harsh/My_Portfolio.git'
             }
         }
         stage('Lint HTML') {
